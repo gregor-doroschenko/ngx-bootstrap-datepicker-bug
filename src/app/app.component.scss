@@ -1,0 +1,12 @@
+.container {
+  height: 200vh;
+}
+
+.modal-body {
+  height: calc(100vh - 400px);
+  overflow-y: scroll;
+
+  .test-box {
+    height: 2000px;
+  }
+}
